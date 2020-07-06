@@ -29,7 +29,7 @@ The task is episodic, and in order to solve the environment, your agent must get
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
     
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-2. If your on windows ignore this step. If your on mac or linux edit this line in navigation.ipynb to point to the dowloaded binaries.
+2. Edit this line in navigation.ipynb to point to the dowloaded binaries.
    ```
    env = UnityEnvironment(file_name="F:/Jupyter/deep-reinforcement-learning/Deep Navigation/Banana_Windows_x86_64/Banana.exe")
    ```
